@@ -1,0 +1,48 @@
+        ______
+   _.-':::::::`.
+   \::::::::::::`.-._
+    \:::''   `::::`-.`.
+     \         `:::::`.\
+      \          `-::::`:
+       \______       `:::`.
+       .|_.-'__`._     `:::\
+      ,'`|:::|  )/`.     \:::
+     /. -.`--'  : /.\     ::|
+     `-,-'  _,'/| \|\\    |:|
+      ,'`::.    |/>`;'\   |:|
+      (_\ \:.:.:`((_));`. ;:|
+      \.:\ ::_:_:_`-','  `-:|
+       `:\\|     SSt:
+          )`__...---'
+
+'Ahoy there sailor, I here you are looking for some hidden treasure.
+Here's a treasure map to help you on your way. It's of no use to me 
+as I lost my other leg and with it my taste for adventure. X marks
+the spot! Along your way you may come across an old book called
+Treasure Island, there should be another clue hidden within
+which should tell you the location of the treasure, I think scanning
+for the words "treasure chest" should do the job ;)'
+
+
+Treasure Map:
+├── home
+├── isla_cruces
+│   └── something_moves_in_the_water.txt
+├── isla_de_muerta
+│   └── itsquiet_____toooooqueit.txt
+├── isla_de_pelegosto
+│   └── something_cold_brushes_against_your_arm.txt
+├── long_john_silver
+│   └── treasure_map.txt
+├── nassau
+│   └── you_hear_a_sssssssssssss.txt
+├── port_royal
+│   └── you_are_wanted_for_piracy.txt
+├── portobelo
+│   └── you_see_some_smoke_on_the_horizon.txt
+├── rum_runners_isle
+│   └── X.txt
+├── shipwreck_cove
+│   └── mysterious_cave.txt
+└── tortuga
+    └── you_have_the_strangest_feeling_that_you_are_being_followed.txt 
