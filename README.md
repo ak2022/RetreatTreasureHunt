@@ -1,7 +1,8 @@
 # treasurehunt
 
-Can you find the treasure??? Clone this repo locally and try and get the treasure back home safely using ONLY shell commands.
+Adapted from https://github.com/harrygcoppock/treasurehunt, all credit to him! 
 
+Can you find the treasure??? Clone this repo locally and try and get the treasure back home safely using ONLY shell commands.
 
 To win, you will need to find the treasure chest, the key, and the program to open it! They will need to be taken safely back to your ship.
 You can then use the script to open the treasure chest... 
