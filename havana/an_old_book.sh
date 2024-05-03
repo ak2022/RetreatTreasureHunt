@@ -25,6 +25,75 @@ fi
 file1=my_key.txt
 file2=this_is_heavy.txt
 
+
+## Checks
+if grep -q "silver" "$file1"; then
+    echo "Excellent! You have the correct key"
+else
+    echo "The key looks... Incorrect... You've not tried to use a fake key, have you?"
+    exit 0
+fi
+
+if grep -q "safely" "$file2"; then
+    echo "You have a treasure chest! That looks heavy."
+else
+    echo "That's the chest? Are you sure that's the right one..?"
+    echo "AH!!!! It's got A GIANT SPIDER and no TREASURE!!!!"
+    echo "
+                                                                                                    
+                         @                                                @                         
+                         @@                                              @@                         
+                         @@                                              @@                         
+                         @@                                              @@                         
+                         @@                                              @@                         
+                         @@@                                            @@@                         
+                         @@@                                            @@@                         
+                         @@@@                                          @@@@                         
+                          @@@                                          @@@                          
+                          @@@@                                        @@@@                          
+      @                    @@@                                        @@@                    @      
+       @@                   @@@                                      @@@                   @@       
+        @@@                  @@@                                    @@@                  @@@        
+         @@@                  @@@                                  @@@                  @@@         
+          @@@@                 @@@        @              @        @@@                 @@@@          
+            @@@@                @@@@      @              @      @@@@                @@@@            
+             @@@@@@              @@@@     @@            @@     @@@@              @@@@@@             
+                @@@@@             @@@@@    @ @@@    @@@ @    @@@@@             @@@@@                
+                  @@@@@@@           @@@@   @@@@@@@@@@@@@@   @@@@           @@@@@@@                  
+                      @@@@@@         @@@@@@@@@@@@@@@@@@@@ @@@@@         @@@@@@                      
+                          @@@@@@@@      @@@@@@@@@@@@@@@@@@@       @@@@@@@@                          
+                             @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@                             
+                                  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@                                  
+                                  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@                                 
+                          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@                          
+                   @@@@@@@@@@@@        @@@@@@@@@@@@@@@@@@@@@@         @@@@@@@@@@@                   
+               @@@@@@@@              @@@@@@@@@@@@@@@@@@@@@@@@@@              @@@@@@@@               
+            @@@@@@@                @@@@@ @@@@@@@@@@@@@@@@@@ @@@@@                @@@@@@@            
+         @@@@@@                  @@@@@   @@@@@@@@@@@@@@@@@@@  @@@@@                  @@@@@@         
+        @@@@                   @@@@@   @@@@@@@@@@@@@@@@@@@@@@@@ @@@@@                   @@@@        
+      @@@                     @@@@   @@@@@@@@@@@@@@@@@@@@@@@@@@@@ @@@@                     @@@      
+     @@                     @@@@   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ @@@@                     @@     
+    @                      @@@     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@   @@@                      @    
+  @                      @@@@     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@    @@@@                      @  
+                        @@@@       @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@     @@@@                        
+                      @@@@         @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@        @@@@                      
+                     @@@@          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@         @@@@                     
+                     @@@            @@@@@@@@@@@@@@@@@@@@@@@@@@@@@           @@@                     
+                    @@@@             @@@@@@@@@@@@@@@@@@@@@@@@@@@            @@@@                    
+                    @@@               @@@@@@@@@@@@@@@@@@@@@@@@@              @@@                    
+                   @@@                 @@@@@@@@@@@@@@@@@@@@@@@                @@@                   
+                   @@                    @@@@@@@@@@@@@@@@@@@                   @@                   
+                   @@                      @@@@@@@@@@@@@@@                     @@                   
+                   @                          @@@@@@@@@@                        @                   
+                   @                                                            @                   
+                   @                                                            @                   
+
+"
+
+    exit 0
+fi
+
+
 # Check if both files exist in the same directory
 if [ -f "$file1" ] && [ -f "$file2" ]; then
     echo "The chest creaks open..."
@@ -78,6 +147,6 @@ if [ -f "$file1" ] && [ -f "$file2" ]; then
 echo "Congratulations!! You found the treasure!"
 
 else
-    echo "Hmm... It seems that you don't have the treasure chest and the key... Make sure they are named correctly!"
+    echo "Hmm... It's not working. Have you named the chest and key correctly? You can check using -h"
 fi
 
